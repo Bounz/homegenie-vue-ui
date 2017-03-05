@@ -1,0 +1,9 @@
+{
+    "MainMenu": {
+      "Groups": "Groups",
+      "Automatisation": "Automatisation",
+      "Schedule": "Schedule",
+      "Programs": "Programs",
+      "Widgets": "Widgets"
+  }
+}

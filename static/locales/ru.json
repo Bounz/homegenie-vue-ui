@@ -1,0 +1,9 @@
+{
+    "MainMenu": {
+      "Groups": "Группы",
+      "Automatisation": "Автоматизация",
+      "Schedule": "Расписание",
+      "Programs": "Программы",
+      "Widgets": "Виджеты"
+  }
+}
