@@ -6,15 +6,16 @@ var activeLang = 'en'
 var localeCache = {}
 
 var loadLocale = function (lang) {
-  if(localeCache[lang] !== undefined)
+  if (localeCache[lang] !== undefined)
     return Promise.resolve(localeCache[lang])
 
-  return fetch('./static/locales/' + lang + '.json').then(function (resp) {
-    return resp.json()
-  }).then(function (data) {
-    localeCache[lang] = data
-    return Promise.resolve(data)
-  })
+  return fetch('./static/locales/' + lang + '.json')
+    .then(function (resp) {
+      return resp.json()
+    }).then(function (data) {
+      localeCache[lang] = data
+      return Promise.resolve(data)
+    })
 }
 
 export default {

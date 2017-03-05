@@ -1,4 +1,4 @@
-# hg-ui
+# HomeGenie Vue.js UI
 
 > A new UI for HomeGenie
 

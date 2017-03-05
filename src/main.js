@@ -8,6 +8,8 @@ import VueMaterial from 'vue-material'
 import 'vue-material/dist/vue-material.css'
 Vue.use(VueMaterial)
 
+import 'font-awesome/css/font-awesome.css';
+
 Vue.config.productionTip = false
 
 // translations
